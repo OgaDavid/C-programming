@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    printf("Please enter your name?: ");
+    printf("Please enter your name: ");
     char name[50];
     scanf("%s", name);
-    printf("Hello %s!\n", name);
+    printf("Hello %s\n", name);
     return 0;
 }
