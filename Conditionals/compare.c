@@ -2,30 +2,27 @@
 
 int main(void)
 {
-    char x[10];
-    char y[10];
-    printf("what is x? ");
-    gets(x);
-    printf("what is y? ");
-    gets(y);
-    
+    int num1, num2;
 
-    if (x > y)
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    if (num1 > num2)
     {
-        printf("x is greater than y\n");
+        printf("%d is greater than %d\n", num1, num2);
     }
-    else if (x < y)
+    else if (num1 < num2)
     {
-        printf("x is less than y!\n");
+        printf("%d is less than %d\n", num1, num2);
     }
-    else
-    {
-        printf("The two numbers are equal!\n");
+    else{
+        printf("%d is equal to %d\n", num1, num2);
     }
 }
 
 // PSEUDOCODE =>
 
+// initialize num variables
 // ask to input two numbers
 // conditional to check for which is greater.
 // print out which is greater.
