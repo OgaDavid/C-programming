@@ -22,11 +22,6 @@ int main(void)
     {
         printf("The two numbers are equal!\n");
     }
-
-    // print thank you after program ends.
-    printf("Arigato goziamasu :)\n");
-
-    return 0;
 }
 
 // PSEUDOCODE =>
