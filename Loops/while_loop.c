@@ -1,11 +1,17 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
     int i = 0;
-    while (i < 3)
+    // while (i < 3)
+    // {
+    //     printf("Hello World!\n");
+    //     i++;
+    // }
+
+    while (true)
     {
-        printf("Hello World!\n");
-        i++;
+        printf("Hello world!\n");
     }
 }
