@@ -34,9 +34,7 @@ int main(void)
     else{
         printf("Invalid operator or variable.");
     }
-
     
-
     return 0;
 
 }
