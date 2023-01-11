@@ -9,7 +9,7 @@ int main(void)
     int x, y;
     char operation;
 
-    printf("What is the operation? Reply with either ( +, -, *, /): ");
+    printf("What is the operation? Reply with either ( +, -, * or /): ");
     scanf("%c", &operation);
 
     printf("Enter two numbers: ");
