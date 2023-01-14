@@ -32,7 +32,7 @@ int main(void)
         printf("%d / %d = %d", x, y, x / y);
     }
     else{
-        printf("Invalid operator or variable.");
+        printf("Variable or operator is invalid.");
     }
     
     return 0;
