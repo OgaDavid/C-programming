@@ -15,6 +15,6 @@ int main(void)
         printf("Not agreed.\n");
     }
     else{
-        printf("Please input either y, Y or n, N");
+        printf("Please input either of y, Y or n, N");
     }
 }
