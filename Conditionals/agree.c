@@ -3,7 +3,7 @@
 int main(void)
 {
     char c;
-    printf("Do you agree? ");
+    printf("Do you agree with me? ");
     scanf("%c", &c);
 
     if (c == 'y' || c == 'Y')
